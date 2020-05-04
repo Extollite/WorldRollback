@@ -1,0 +1,5 @@
+worlds:
+  xD:
+    name: "xD"
+    backup: "xDbackup.zip"
+    duration: 4

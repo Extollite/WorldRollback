@@ -1,0 +1,19 @@
+name: WorldRollback
+main: pl.extollite.worldrollback.WorldRollback
+version: "${pom.version}"
+api: ["1.0.9"]
+load: POSTWORLD
+authors: ["Extollite"]
+description: Nukkit world rollback plugin
+prefix: "WorldRollback"
+
+commands:
+  rollbacknow:
+    description: roll back world you are in
+    usage: /rollbacknow - to roll back world you are in
+    permission: rollbacknow.command
+
+permissions:
+  rollbacknow.command:
+    description: "rollback now command"
+    default: op

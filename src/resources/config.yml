@@ -1,0 +1,5 @@
+prefix: "§6[WR]§f "
+5+seconds: "%counter% seconds left to rollback world: %world_name%."
+1second: "%counter% seconds left to rollback world: %world_name%."
+rollback: "%world_name% rollbacked!"
+warnBefore: 15
